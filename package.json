@@ -1,0 +1,11 @@
+{
+  "name": "alinka-rudy",
+  "version": "1.0.0",
+  "description": "a webpage to find new homes for alinka and rudy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sad marai",
+  "license": "ISC"
+}
