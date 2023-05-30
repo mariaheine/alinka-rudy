@@ -1,14 +1,24 @@
 const fs = document.getElementById("fs");
 const fsimg = document.getElementById("fs-image");
+const images = document.getElementsByTagName("img");
+
+console.log(images.length)
+
+for (let i = 0; i < images.length; i++) {
+  const element = images[i];
+  element.onclick = e => openInFullscreen(element.src);
+}
 
 fs.onclick = () => {
     console.log("uppf");
     fs.style.display = "none";
+    document.body.style.overflowY = 'scroll';
 };
 
 function openInFullscreen(src) {
     fsimg.src = src;
     fs.style.display = "block";
+    document.body.style.overflowY = 'hidden';
     console.log(src);
 }
 

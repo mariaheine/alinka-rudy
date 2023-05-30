@@ -154,7 +154,6 @@ background-image: linear-gradient(to right, #00ffb7, #08ff00);
 }
 
 .futrzak ul {
-  padding: 1rem;
   max-width: 230px;
 }
 
@@ -174,7 +173,7 @@ background-image: linear-gradient(to right, #00ffb7, #08ff00);
 
 #fs {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
