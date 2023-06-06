@@ -97,6 +97,11 @@ table {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  background-color: #00000096;
+}
+
+.text.video {
+  bottom: 60px;
 }
 
 /* Number text (1/3 etc) */

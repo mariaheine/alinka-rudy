@@ -60,6 +60,16 @@ height: 1px;
 background-image: linear-gradient(to right, #00ffb7, #08ff00);
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #8b00ff;
+}
+
+::selection {
+  color: white;
+  background: #8b00ff;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -113,6 +123,12 @@ background-image: linear-gradient(to right, #00ffb7, #08ff00);
   align-items: flex-start;
   gap: 0.3rem 0.2rem;
   margin-top: 0.3rem;
+}
+
+.column.wstep {
+  font-size: 1rem;
+  gap: 1rem;
+  justify-content: center;
 }
 
 /* MENU */
