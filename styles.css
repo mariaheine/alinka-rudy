@@ -147,8 +147,13 @@ background-image: linear-gradient(to right, #00ffb7, #08ff00);
   margin-top: 0.3rem;
 }
 
-.red {
-  color: red;
+.searching {
+  color: lime;
+  font-weight: bold;
+}
+
+.yellow {
+  color: yellow;
   font-weight: bold;
 }
 
