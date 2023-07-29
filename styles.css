@@ -87,8 +87,6 @@ background-image: linear-gradient(to right, #00ffb7, #08ff00);
 
 .common > img {
   object-fit: contain;
-  max-height: 40vh;
-  max-width: 700px;
   width: 100%;
   flex-grow: 1;
   flex-shrink: 1;
@@ -104,7 +102,7 @@ background-image: linear-gradient(to right, #00ffb7, #08ff00);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.3rem;
+  gap: 1rem;
   /* min-width: 340px; */
 }
 
@@ -125,6 +123,10 @@ background-image: linear-gradient(to right, #00ffb7, #08ff00);
   margin-top: 0.3rem;
 }
 
+.column.kontekst  p {
+  padding-bottom: 1rem;;
+}
+
 .column.wstep {
   font-size: 1rem;
   gap: 1rem;
@@ -135,6 +137,7 @@ background-image: linear-gradient(to right, #00ffb7, #08ff00);
 
 #menu {
   padding: 0.5rem;
+  padding-bottom: 1rem;
   max-width: 200px;
   background-color: #ffffff36;
 }
